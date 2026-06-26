@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Project X (Dev)",
+  "version": "0.0.1",
+  "description": "Switch between AI assistants while preserving conversation context.",
+
+  "action": {
+    "default_title": "Project X",
+    "default_popup": "index.html"
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+
+  "host_permissions": [
+    "https://chatgpt.com/*",
+    "https://claude.ai/*",
+    "https://gemini.google.com/*"
+  ]
+}
