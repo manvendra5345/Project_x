@@ -11,7 +11,8 @@
 
   "permissions": [
     "storage",
-    "activeTab"
+    "activeTab",
+    "scripting"
   ],
 
   "host_permissions": [
@@ -19,4 +20,6 @@
     "https://claude.ai/*",
     "https://gemini.google.com/*"
   ]
+  
+ 
 }
